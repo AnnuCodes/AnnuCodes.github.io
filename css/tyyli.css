@@ -2,4 +2,16 @@
 body {
   background-color: black;
   color:white;
+  
 }
+
+h1 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 12px;
+  color: green;
+}
+
+
