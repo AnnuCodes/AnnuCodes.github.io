@@ -26,7 +26,8 @@ p {
   height: 25%;
 }
 
-.square {
+.ul {
+  lis-style-type: square;
 
 }
 
