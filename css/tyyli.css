@@ -1,24 +1,42 @@
  
 body {
-  background-image: url("Lehdet.jpg");
-  color:white;
+  background-color:burlywood;
+  
+}
+
+a {
+  margin-left: 600px;
+  margin-right: 500px;
+  margin-top: 300px;
+  margin-bottom: 400px;
 }
 
 h1 {
   font-size: 20px;
+  border  : 25px;
+  background:coral  ;
+  padding: 30px;
+  width: 300px;
+  height: 30px;
+  margin-left: 500px;
+  margin-right: 500px;
+  margin-bottom: 100px;
+  text-align: center;
 }
 
-p {
-  font-size: 12px;
-  color: green;
-}
+
 
 .perhe {
   background:black;
   color: white;
   border: 2px dotted fuchsia;
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 50px;
+  margin-left: 500px;
+  margin-right: 500px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
 }
   
 .Lissu {
@@ -28,7 +46,38 @@ p {
 
 .neliöt {
   list-style-type: square;
+  margin-left: 500px;
+  margin-right: 500px;
 
+}
+
+h2 {
+  border: 5px groove black;
+  width: 300px;
+  height: 150px;
+  margin-left: 500px;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  text-align: center;
+  padding-top: 100px;
+}
+
+img {
+  margin-left: 375px; 
+  margin-top: 100px;
+}
+
+
+ul {
+  margin-left: 500px;
+  margin-right: 500px;
+  
+  
+}
+
+ol {
+  margin-left: 500px;
+  margin-right: 500px;
 }
 
 
