@@ -1,0 +1,166 @@
+header {
+    font-family:fantasy;
+    background-image: url("näppis.jpg");
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 100px;
+    background-color: cornflowerblue;
+    opacity: 0.8;
+    text-shadow: 5px 8px rgb(209, 118, 225);
+
+}
+
+
+
+.tiedot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+.kortit {
+   background-color:rgba(51, 112, 204, 0.8);
+   height: 100%;
+}
+
+.card img {
+    object-fit: cover;
+    height: 300px;
+}
+
+.korttikuvat {
+    width: 45%;
+}
+.row {
+    background-color:azure;
+}
+
+ul {
+    list-style-type: square;
+}
+button {
+    background-color: rgb(70, 172, 167);
+    background-image: linear-gradient( to top left, rgba(51, 112, 204, 0.8) 0%, palevioletred 100%);
+    text-shadow: lightpink;
+    border-radius: 10px;
+}
+
+.btn .btn-primary {
+    color: silver;
+}
+
+footer {
+    margin-top: 50px;
+    background-color: black;
+    color: lightgray;
+    text-align: center;
+    padding: 50px;
+}
+
+
+
+#tietokone {
+    height: 100%;
+    width: 100%;
+}
+
+a {
+    color: black;
+    transition-duration: 1000ms;
+}
+
+.carousel-bg {
+    background-color: black;
+}    
+
+.carousel-bg .row {
+    background-color: rgba(51, 112, 204, 0.8);
+}
+
+
+
+.tietsikka {
+    width: 100%;
+    height: 100%;
+}
+
+.yhteystiedot {
+    text-align: center;
+}
+
+
+
+.tilauskortit {
+    position: absolute;
+    width: 250px;
+    height: 320px;
+    background: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.thecard {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+    display: inline-block;
+    min-height: 250px;
+    
+}
+
+.thecard:hover {
+    transform: rotateY(180deg)
+}
+.thefront {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background:rgba(51, 112, 204, 0.8);
+    color:black;
+    text-align: center;
+    font-family: zilla 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 20px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.theback {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: black;
+    color:white;
+    transform: rotateY(180deg);
+    text-align: center;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#varaosat {
+    margin: 20px;
+    text-align: center;
+}
+
+#kiitos {
+    text-align: center;
+    padding: 50px;
+}
