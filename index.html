@@ -1,62 +1,133 @@
-<!DOCTYPE html>
-<html lang=fi>
+<!doctype html>
+<html lang="en">
 
-  <head>
-    <link rel="stylesheet" href="css/tyyli.css">
-    <meta charset="utf-8" />
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="bootstr.css">
+
   <title>Annun sivu</title>
-  </head>
+</head>
 
-  <body>
-    
-    <header id="header"><h1>Annukan sivut</h1></header>
+<body>
 
-    <nav id="nav">
-        <a href="second.html">Linkki toiselle sivulleni</a>
-        <a href="third.html">Linkki kolmannelle sivulleni</a>
-    </nav>
-  
-    
+<header>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Etusivu</a>
+          </li>
 
-    <section id="section" >
+          <li class="nav-item">
+            <a class="nav-link" href="toinen.html">Tietoa meistä</a>
+          </li>
 
-      <h2>Kurssin edistyminen</h2>
+          <li class="nav-item">
+            <a class="nav-link" href="kolmas.html">Yhteystiedot</a>
+          </li>
 
-      <label for="file">Edistyminen Verkkosivujen kehittäminen kurssissa: </label>
-      <progress id="file" max="100" value="36">36%</progress>
+          <li class="nav-item">
+            <a class="nav-link" href="neljäs.html">Nettikauppa</a>
+          </li>
+        </ul>
 
-    </section>
-
-    <aside id="aside">
-      <h4>Tässä on toinen otsikko</h4>
-        <p>Tässä on jotain sopivaa tekstiä tälle sivulle</p>
-          
-    </aside>
-    
-    <article id="article">
-      <h3>Tietoja minusta</h3>
-
-      <ul>
-        <li>Opiskelen IT-tradenomiksi Laureassa</li>
-        <li>Asun Espoossa</li>
-      </ul>
-
-        <h4>Perheeni</h4>
-        <p>Perheeseeni kuuluu aviomies ja kolme lasta, sekä kissa. </p>
-      
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn" type="submit">Search</button>
+        </form>
+      </div>
+  </div>
+  </nav>
 
   
+    <div class="otsikko">
+      <h1>Tietokoneveikot</h1>
+    </div>
+  </header>
 
-    </article>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="card kortit">
+          <img src="Tietokone.jpg" class="card-img-top" alt="kuva tietokoneesta">
+          <div class="card-body">
+            <h5 class="card-title">Yrityksen kuvaus</h5>
+            <p class="card-text">Tietokoneveikot on tietokoneisiin erikoistunut yritys. Voimme auttaa sinua lähes
+              kaikissa
+              tietokoneisiin liittyvissä ongelmissa.
+              Meiltä saat asiantuntevaa apua tietokoneasioissa ympäri vuorokauden. Chattimme on aina auki.
+              Nettikaupastamme löydät yleisimmät varaosat kilpailukykyiseen hintaan.
+              Jos sinulla herää kysyttävää, voit ottaa meihin yhteyttä yhteystiedot-sivun kautta.</p>
+            <a href="toinen.html" class="btn btn-primary">Tietoa meistä</a>
+          </div>
+        </div>
+      </div>
 
-    
-   
+      <div class="col-sm-4">
+        <div class="card kortit">
+          <img src="hiiri.jpg" class="card-img-top" alt="kuva hiirestä">
+          <div class="card-body">
+            <h5 class="card-title">Tuotteemme ja palvelumme</h5>
+            <p class="card-text">Meiltä saat tarvittavat varaosat ja tietkononeiden korjauspalvelut helposti ja
+              nopeasti. </p>
+            <p>Palvelumme:</p>
+            <ul>
+              <li>Tietokoneen korjaus</li>
+              <li>Tiedostojen palautukset</li>
+              <li>Virusten ja haittaohjelmien poistot</li>
+            </ul>
+            <a href="neljäs.html" class="btn btn-primary">Nettikauppa</a>
+          </div>
+        </div>
+      </div>
 
-    <footer>
-      <p>Made in Finland</p>
-    </footer>
+      <div class="col-sm-4">
+        <div class="card kortit">
+          <img src="näppis.jpg"  class="card-img-top" alt="kuva tietokoneesta">
+          <div class="card-body">
+            <h5 class="card-title">Sijainti</h5>
+            <p class="card-text">Myymälämme sijaitsee keskeisellä paikalla Helsingissä. Tervetuloa käymään!</p>
+            <a href="kolmas.html" class="btn btn-primary">Yhteystiedot</a>
+          </div>
+        </div>
+      </div>
 
-    
-  </body>
+
+
+
+
+
+    </div>
+  </div>
+  
+
+
+
+
+
+
+
+
+  <footer>&copy; Tietokoneveikot Oy 2021</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+</body>
 
 </html>
