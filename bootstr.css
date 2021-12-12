@@ -139,7 +139,7 @@ a {
     background:rgba(51, 112, 204, 0.8);
     color:black;
     text-align: center;
-    font-family: zilla 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     border-radius: 20px;
     font-size: 18px;
     display: flex;
@@ -149,7 +149,6 @@ a {
 }
 
 .theback {
-    position: absolute;
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
