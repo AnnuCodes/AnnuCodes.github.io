@@ -14,13 +14,19 @@ h1 {
 
 }
 @media only screen and (max-width: 600px) {
-    body {
+    body .row  {
         background-color: black;
         color:rgb(209, 118, 225);
 
+       
     }
+
+    header {
+        width: fit-content;
+    }
+  
     
-}
+
 
 .tiedot {
     display: flex;
@@ -28,7 +34,6 @@ h1 {
     justify-content: center;
     flex-direction: column;
 }
-
 
 
 .kortit {
@@ -54,7 +59,6 @@ ul {
 button {
     background-color: rgb(70, 172, 167);
     background-image: linear-gradient( to top left, rgba(51, 112, 204, 0.8) 0%, palevioletred 100%);
-    text-shadow: lightpink;
     border-radius: 10px;
 }
 
@@ -169,4 +173,8 @@ a {
 #kiitos {
     text-align: center;
     padding: 50px;
+}
+
+.läppärikuva {
+    width: 80%;
 }
