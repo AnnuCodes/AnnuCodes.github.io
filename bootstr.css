@@ -13,19 +13,18 @@ h1 {
     text-shadow: 5px 8px rgb(209, 118, 225);
 
 }
+
 @media only screen and (max-width: 600px) {
     body .row  {
         background-color: black;
         color:rgb(209, 118, 225);
-
-       
     }
 
-    header {
-        width: fit-content;
+    h1 {
+        font-size: calc(1.525rem + 3.3vw);
     }
-  
-    
+}
+
 
 
 .tiedot {
