@@ -176,3 +176,7 @@ a {
 .läppärikuva {
     width: 80%;
 }
+
+.spacer {
+    padding:200px;
+}
